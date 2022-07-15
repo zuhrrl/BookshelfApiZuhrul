@@ -1,0 +1,19 @@
+{
+  "name": "bookshelfapizuhrul",
+  "version": "1.0.0",
+  "description": "A Bookshelf API Testing from Zuhrul Anam",
+  "main": "/src/controller/server.js",
+  "scripts": {
+    "start": "nodemon src/controller/server.js",
+    "test": "npm run start",
+    "lint": "eslint ./"
+  },
+  "author": "Zuhrul Anam",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "eslint": "^8.19.0",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.19"
+  }
+}
